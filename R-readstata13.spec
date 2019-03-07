@@ -4,7 +4,7 @@
 #
 Name     : R-readstata13
 Version  : 0.9.2
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/readstata13_0.9.2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/readstata13_0.9.2.tar.gz
 Summary  : Import 'Stata' Data Files
