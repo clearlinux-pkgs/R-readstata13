@@ -4,7 +4,7 @@
 #
 Name     : R-readstata13
 Version  : 0.10.1
-Release  : 39
+Release  : 40
 URL      : https://cran.r-project.org/src/contrib/readstata13_0.10.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/readstata13_0.10.1.tar.gz
 Summary  : Import 'Stata' Data Files
@@ -15,9 +15,6 @@ Requires: R-readstata13-license = %{version}-%{release}
 Requires: R-Rcpp
 BuildRequires : R-Rcpp
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 # readstata13
@@ -51,10 +48,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1677018406
+export SOURCE_DATE_EPOCH=1678837853
 
 %install
-export SOURCE_DATE_EPOCH=1677018406
+export SOURCE_DATE_EPOCH=1678837853
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/R-readstata13
 cp %{_builddir}/readstata13/LICENSE %{buildroot}/usr/share/package-licenses/R-readstata13/f0aaeb9183bca4511d21c13a39052e24f3774645 || :
