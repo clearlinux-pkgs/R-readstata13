@@ -1,5 +1,5 @@
 PKG_NAME := R-readstata13
-URL = https://cran.r-project.org/src/contrib/readstata13_0.10.1.tar.gz
+URL = https://ftp.osuosl.org/pub/cran/src/contrib/readstata13_0.11.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
